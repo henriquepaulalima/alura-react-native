@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
     fontSize: 26,
     lineHeight: 42,
     color: '#464646',
-    fontWeight: 'bold',
+    fontFamily: 'MontserratBold',
   },
   farm: {
     flexDirection: 'row',
@@ -62,7 +62,8 @@ const styles = StyleSheet.create({
   farmName: {
     fontSize: 16,
     lineHeight: 26,
-    marginLeft: 12
+    marginLeft: 12,
+    fontFamily: 'MontserratRegular',
   },
   image: {
     width: 32,
