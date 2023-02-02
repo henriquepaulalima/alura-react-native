@@ -1,5 +1,6 @@
 import React from "react";
-import { Image, StyleSheet, Dimensions, Text, View } from "react-native";
+import { Image, StyleSheet, Dimensions, View } from "react-native";
+import Text from "../components/Text";
 import top from '../../assets/topo.png';
 import farmImg from '../../assets/logo.png';
 
@@ -53,7 +54,7 @@ const styles = StyleSheet.create({
     fontSize: 26,
     lineHeight: 42,
     color: '#464646',
-    fontFamily: 'MontserratBold',
+    fontWeight: 'bold',
   },
   farm: {
     flexDirection: 'row',
@@ -63,7 +64,6 @@ const styles = StyleSheet.create({
     fontSize: 16,
     lineHeight: 26,
     marginLeft: 12,
-    fontFamily: 'MontserratRegular',
   },
   image: {
     width: 32,
