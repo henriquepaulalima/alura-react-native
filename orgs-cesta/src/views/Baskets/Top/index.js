@@ -7,7 +7,7 @@ import Text from "../../../components/Text";
 const screenWidth = Dimensions.get('screen').width;
 
 
-export default function Top() {
+export default function Top({ title }) {
   return (
     <>
       <Image
@@ -17,7 +17,7 @@ export default function Top() {
       <Text
         style={styles.title}
       >
-        Detalhes da cesta
+        {title}
       </Text>
     </>
   );

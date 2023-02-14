@@ -1,14 +1,14 @@
 import React from "react";
-import {  StyleSheet, View } from "react-native";
+import { StyleSheet, View } from "react-native";
 import Top from "./Top";
 import Details from "./Details";
 
-export default function Baskets() {
+export default function Baskets({ top, details }) {
   return (
     <>
-      <Top />
+      <Top {...top} />
       <View style={styles.basket}>
-        <Details />
+        <Details {...details} />
       </View>
     </>
   );
