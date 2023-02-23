@@ -15,6 +15,7 @@ const basket = {
     farmName: 'Jenny Jack Farm',
     description: 'Uma cesta com produtos selecionados cuidadosamente da fazenda direto para sua cozinha',
     price: 'R$ 40,00',
+    button: 'Buy',
   },
   items: {
     title: "Itens da cesta",
